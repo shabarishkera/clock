@@ -30,6 +30,7 @@ background-color: #72A0C1;
 text-align: center;
 margin: 15px;
 border-radius: 1.5rem 1.5rem  ;
+
 }
 h1
 {
@@ -44,7 +45,7 @@ color: white;
 margin-top: 59px;;
 font-weight: bold;
 }
-#min60,#min15,#min30,#start,#reset,#pause
+#min60,#min15,#min30,#start,#reset,#pause,.bttn
 {
 
 width:67px;
@@ -56,8 +57,31 @@ border: 0;
 border-radius: .4rem;
 
 }
-#min60:focus,#min15:focus,#min30:focus,#start:focus,#reset:focus,#pause:focus{
-
+#min60:focus,#min15:focus,#min30:focus,#start:focus,#reset:focus,#pause:focus,.setT:focus,.bttn:focus{
 outline: 0;
+
+}
+#hourcontainer,#minutecontainer
+{
+display:inline-flex;
+margin: 30px;
+display:auto;
+}
+#hr,#mn
+{
+  width:60px;
+  height: 33px;
+  font-size:20px;
+  color: white;
+line-height: 1.75em;
+}
+.setT{
+width: 29px;
+height: 33px;
+font-size:20px;
+background: #A3C1AD;
+color: white;
+border: 0;
+border-radius: .4rem;
 
 }

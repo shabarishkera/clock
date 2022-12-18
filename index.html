@@ -23,7 +23,23 @@
     </div>
     <div class="innercontainer" id="alarm">
 <h1>alarm</h1>
-<p id="a"></p>
+<p id="a">
+  <div id="hourcontainer">
+    <button type="button" name="button" onclick="addhr(1)" class="setT">+</button>
+    <div id="hr">00 hrs</div>
+    <button type="button" name="button" onclick="addhr(-1)"class="setT">-</button>
+  </div>
+  <div id="minutecontainer">
+        <button type="button" name="button" onclick="addmn(1)" class="setT">+</button>
+    <div id="mn">00 min</div>
+  <button type="button" name="button" onclick="addmn(-1)" class="setT">-</button>
+  </div>
+  <div id="setalarm">
+<button type="button" name="button" class="bttn" id="set" onclick="setalarm()">set</button>
+<button type="button" name="button" class="bttn"onclick="clearalarm()">clear</button>
+  </div>
+
+</p>
     </div>
     <div class="innercontainer" id="stopwatch">
 <h1>stopwatch</h1>
@@ -40,5 +56,6 @@
     <script type="text/javascript" src="clock.js">   </script>
       <script type="text/javascript" src="stopwatch.js">   </script>
 <script type="text/javascript" src="timer.js">   </script>
+<script type="text/javascript" src="alarm.js">   </script>
   </body>
 </html>
