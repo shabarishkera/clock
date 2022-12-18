@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+<script type="text/javascript" src="timer.js">   </script>
+  </head>
+  <body>
+  <div class="outercontainer">
+    <div class="innercontainer" id="clock">
+<h1>clock</h1>
+<p id="c"></p>
+    </div>
+    <div class="innercontainer" id="timer">
+<h1>timer</h1>
+<p id="t">
+<button type="button" name="button" id="min15" onclick="settimer1()">15 min</button>
+<button type="button" name="button" id="min30" onclick="settimer2()">30 min</button>
+<button type="button" name="button" id="min60" onclick="settimer3()">1 hour</button>
+</p>
+    </div>
+    <div class="innercontainer" id="alarm">
+<h1>alarm</h1>
+<p id="a"></p>
+    </div>
+    <div class="innercontainer" id="stopwatch">
+<h1>stopwatch</h1>
+<p id="s">
+  <p id ="main">0 : 0 : 0</p>
+  <button type="button" name="button" id="start" onclick="startstopwatch()">start</button>
+  <button type="button" name="button" id="pause" onclick="pause()">pause</button>
+    <button type="button" name="button" id="reset" onclick="reset()">reset</button>
+
+</p>
+    </div>
+
+  </div>
+    <script type="text/javascript" src="clock.js">   </script>
+      <script type="text/javascript" src="stopwatch.js">   </script>
+
+  </body>
+</html>
