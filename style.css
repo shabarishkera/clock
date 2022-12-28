@@ -13,24 +13,25 @@ background: #92bde7;
 .outercontainer
 {
 width: 600px;
-height: 600px;
+height:600px;
 position: absolute;
 top:50%;
 left: 50%;
 transform: translate(-50%,-50%);
 display: grid;
 grid-template-columns: 1fr 1fr;
-background-color:#7CB9E8;
-box-shadow: 0px 4px 10px ;
+background-color:auto;
+border-radius: 1.5rem;
+box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .innercontainer
 {
 
 background-color: #72A0C1;
 text-align: center;
-margin: 15px;
+margin:5%;
 border-radius: 1.5rem 1.5rem  ;
-
+box-shadow: white inset 3px 3px 33px;
 }
 h1
 {
@@ -51,15 +52,15 @@ font-weight: bold;
 width:67px;
 height: 33px;
 font-size:20px;
-background: #A3C1AD;
-color: white;
-border: 0;
+background:#92bde7;
+opacity: .7;
+box-shadow: inset 3px 6px 19px white;
 border-radius: .4rem;
+border: 0;
 
 }
 #min60:focus,#min15:focus,#min30:focus,#start:focus,#reset:focus,#pause:focus,.setT:focus,.bttn:focus{
 outline: 0;
-
 }
 #hourcontainer,#minutecontainer
 {
@@ -74,16 +75,21 @@ display:auto;
   font-size:20px;
   color: white;
 line-height: 1.75em;
+
 }
 .setT{
 width: 29px;
 height: 33px;
 font-size:20px;
 background: #A3C1AD;
-color: white;
+color:black;;
 border: 0;
 border-radius: .4rem;
-
+background:#92bde7;
+opacity: .7;
+box-shadow: inset 3px 6px 19px white;
+border-radius: .4rem;
+border: 0;
 }
 @media screen and (max-width:600px) {
 .outercontainer
