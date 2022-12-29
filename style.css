@@ -22,7 +22,6 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 background-color:auto;
 border-radius: 1.5rem;
-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .innercontainer
 {
@@ -31,7 +30,7 @@ background-color: #72A0C1;
 text-align: center;
 margin:5%;
 border-radius: 1.5rem 1.5rem  ;
-box-shadow: white inset 3px 3px 33px;
+box-shadow: white inset 3px 3px 30px ;
 }
 h1
 {
@@ -57,7 +56,10 @@ opacity: .7;
 box-shadow: inset 3px 6px 19px white;
 border-radius: .4rem;
 border: 0;
-
+color: purple;
+font-family:times cursive sans-serif;
+margin-bottom: 1.5rem;
+font-weight: bold;
 }
 #min60:focus,#min15:focus,#min30:focus,#start:focus,#reset:focus,#pause:focus,.setT:focus,.bttn:focus{
 outline: 0;
@@ -80,9 +82,9 @@ line-height: 1.75em;
 .setT{
 width: 29px;
 height: 33px;
-font-size:20px;
+font-size:29px;
 background: #A3C1AD;
-color:black;;
+color:purple;
 border: 0;
 border-radius: .4rem;
 background:#92bde7;
@@ -104,5 +106,14 @@ width:300px;
 margin:auto;
 margin-top: 30px;
 }
+
+}
+#start,#reset,#pause
+{
+margin-top:3.5em;
+
+}
+#main{
+margin-top:143px;
 
 }
